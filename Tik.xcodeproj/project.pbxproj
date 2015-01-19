@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B9A2EC11A6B1969002B67BF /* IssueFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A2EBF1A6B1969002B67BF /* IssueFormViewController.m */; };
+		9B9A2EC21A6B1969002B67BF /* IssueFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A2EC01A6B1969002B67BF /* IssueFormViewController.xib */; };
+		9B9A2EC51A6B639F002B67BF /* PoetsenOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A2EC31A6B639F002B67BF /* PoetsenOne-Regular.ttf */; };
+		9B9A2EC61A6B6507002B67BF /* PoetsenOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A2EC31A6B639F002B67BF /* PoetsenOne-Regular.ttf */; };
 		9BCBE7FF1A6A29C500C9FF87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCBE7FE1A6A29C500C9FF87 /* main.m */; };
 		9BCBE8021A6A29C500C9FF87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCBE8011A6A29C500C9FF87 /* AppDelegate.m */; };
 		9BCBE8051A6A29C500C9FF87 /* Tik.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BCBE8031A6A29C500C9FF87 /* Tik.xcdatamodeld */; };
-		9BCBE8081A6A29C500C9FF87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCBE8071A6A29C500C9FF87 /* ViewController.m */; };
-		9BCBE80B1A6A29C500C9FF87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCBE8091A6A29C500C9FF87 /* Main.storyboard */; };
 		9BCBE80D1A6A29C500C9FF87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCBE80C1A6A29C500C9FF87 /* Images.xcassets */; };
 		9BCBE8101A6A29C500C9FF87 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCBE80E1A6A29C500C9FF87 /* LaunchScreen.xib */; };
 		9BCBE81C1A6A29C500C9FF87 /* TikTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCBE81B1A6A29C500C9FF87 /* TikTests.m */; };
+		9BCBE8281A6A443800C9FF87 /* TimeSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCBE8261A6A443800C9FF87 /* TimeSelectorViewController.m */; };
+		9BCBE8291A6A443800C9FF87 /* TimeSelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCBE8271A6A443800C9FF87 /* TimeSelectorViewController.xib */; };
+		9BCBE82D1A6A444C00C9FF87 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCBE82B1A6A444C00C9FF87 /* TimerViewController.m */; };
+		9BCBE82E1A6A444C00C9FF87 /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCBE82C1A6A444C00C9FF87 /* TimerViewController.xib */; };
+		9BCBE8331A6AB0BA00C9FF87 /* IssuesCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCBE8311A6AB0BA00C9FF87 /* IssuesCenterViewController.m */; };
+		9BCBE8341A6AB0BA00C9FF87 /* IssuesCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCBE8321A6AB0BA00C9FF87 /* IssuesCenterViewController.xib */; };
+		9BCBE8371A6AB9D700C9FF87 /* IssuesCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCBE8361A6AB9D700C9FF87 /* IssuesCenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +37,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B9A2EBE1A6B1969002B67BF /* IssueFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssueFormViewController.h; sourceTree = "<group>"; };
+		9B9A2EBF1A6B1969002B67BF /* IssueFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssueFormViewController.m; sourceTree = "<group>"; };
+		9B9A2EC01A6B1969002B67BF /* IssueFormViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IssueFormViewController.xib; sourceTree = "<group>"; };
+		9B9A2EC31A6B639F002B67BF /* PoetsenOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PoetsenOne-Regular.ttf"; sourceTree = "<group>"; };
 		9BCBE7F91A6A29C500C9FF87 /* Tik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BCBE7FD1A6A29C500C9FF87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BCBE7FE1A6A29C500C9FF87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9BCBE8001A6A29C500C9FF87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9BCBE8011A6A29C500C9FF87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9BCBE8041A6A29C500C9FF87 /* Tik.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tik.xcdatamodel; sourceTree = "<group>"; };
-		9BCBE8061A6A29C500C9FF87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9BCBE8071A6A29C500C9FF87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9BCBE80A1A6A29C500C9FF87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BCBE80C1A6A29C500C9FF87 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9BCBE80F1A6A29C500C9FF87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9BCBE8151A6A29C500C9FF87 /* TikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BCBE81A1A6A29C500C9FF87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BCBE81B1A6A29C500C9FF87 /* TikTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TikTests.m; sourceTree = "<group>"; };
+		9BCBE8251A6A443800C9FF87 /* TimeSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeSelectorViewController.h; sourceTree = "<group>"; };
+		9BCBE8261A6A443800C9FF87 /* TimeSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeSelectorViewController.m; sourceTree = "<group>"; };
+		9BCBE8271A6A443800C9FF87 /* TimeSelectorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeSelectorViewController.xib; sourceTree = "<group>"; };
+		9BCBE82A1A6A444C00C9FF87 /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimerViewController.h; path = ../TimerViewController.h; sourceTree = "<group>"; };
+		9BCBE82B1A6A444C00C9FF87 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimerViewController.m; path = ../TimerViewController.m; sourceTree = "<group>"; };
+		9BCBE82C1A6A444C00C9FF87 /* TimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TimerViewController.xib; path = ../TimerViewController.xib; sourceTree = "<group>"; };
+		9BCBE8301A6AB0BA00C9FF87 /* IssuesCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssuesCenterViewController.h; sourceTree = "<group>"; };
+		9BCBE8311A6AB0BA00C9FF87 /* IssuesCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssuesCenterViewController.m; sourceTree = "<group>"; };
+		9BCBE8321A6AB0BA00C9FF87 /* IssuesCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IssuesCenterViewController.xib; sourceTree = "<group>"; };
+		9BCBE8351A6AB9D700C9FF87 /* IssuesCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssuesCenter.h; sourceTree = "<group>"; };
+		9BCBE8361A6AB9D700C9FF87 /* IssuesCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssuesCenter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,14 +104,26 @@
 		9BCBE7FB1A6A29C500C9FF87 /* Tik */ = {
 			isa = PBXGroup;
 			children = (
-				9BCBE8001A6A29C500C9FF87 /* AppDelegate.h */,
-				9BCBE8011A6A29C500C9FF87 /* AppDelegate.m */,
-				9BCBE8061A6A29C500C9FF87 /* ViewController.h */,
-				9BCBE8071A6A29C500C9FF87 /* ViewController.m */,
-				9BCBE8091A6A29C500C9FF87 /* Main.storyboard */,
-				9BCBE80C1A6A29C500C9FF87 /* Images.xcassets */,
+				9B9A2EC31A6B639F002B67BF /* PoetsenOne-Regular.ttf */,
 				9BCBE80E1A6A29C500C9FF87 /* LaunchScreen.xib */,
 				9BCBE8031A6A29C500C9FF87 /* Tik.xcdatamodeld */,
+				9BCBE8351A6AB9D700C9FF87 /* IssuesCenter.h */,
+				9BCBE8361A6AB9D700C9FF87 /* IssuesCenter.m */,
+				9BCBE8001A6A29C500C9FF87 /* AppDelegate.h */,
+				9BCBE8011A6A29C500C9FF87 /* AppDelegate.m */,
+				9BCBE82A1A6A444C00C9FF87 /* TimerViewController.h */,
+				9BCBE82B1A6A444C00C9FF87 /* TimerViewController.m */,
+				9BCBE82C1A6A444C00C9FF87 /* TimerViewController.xib */,
+				9BCBE8251A6A443800C9FF87 /* TimeSelectorViewController.h */,
+				9BCBE8261A6A443800C9FF87 /* TimeSelectorViewController.m */,
+				9BCBE8271A6A443800C9FF87 /* TimeSelectorViewController.xib */,
+				9BCBE8301A6AB0BA00C9FF87 /* IssuesCenterViewController.h */,
+				9BCBE8311A6AB0BA00C9FF87 /* IssuesCenterViewController.m */,
+				9BCBE8321A6AB0BA00C9FF87 /* IssuesCenterViewController.xib */,
+				9B9A2EBE1A6B1969002B67BF /* IssueFormViewController.h */,
+				9B9A2EBF1A6B1969002B67BF /* IssueFormViewController.m */,
+				9B9A2EC01A6B1969002B67BF /* IssueFormViewController.xib */,
+				9BCBE80C1A6A29C500C9FF87 /* Images.xcassets */,
 				9BCBE7FC1A6A29C500C9FF87 /* Supporting Files */,
 			);
 			path = Tik;
@@ -202,8 +235,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BCBE80B1A6A29C500C9FF87 /* Main.storyboard in Resources */,
+				9B9A2EC61A6B6507002B67BF /* PoetsenOne-Regular.ttf in Resources */,
 				9BCBE8101A6A29C500C9FF87 /* LaunchScreen.xib in Resources */,
+				9BCBE8291A6A443800C9FF87 /* TimeSelectorViewController.xib in Resources */,
+				9B9A2EC21A6B1969002B67BF /* IssueFormViewController.xib in Resources */,
+				9BCBE8341A6AB0BA00C9FF87 /* IssuesCenterViewController.xib in Resources */,
+				9BCBE82E1A6A444C00C9FF87 /* TimerViewController.xib in Resources */,
 				9BCBE80D1A6A29C500C9FF87 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9A2EC51A6B639F002B67BF /* PoetsenOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,10 +260,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9A2EC11A6B1969002B67BF /* IssueFormViewController.m in Sources */,
 				9BCBE8051A6A29C500C9FF87 /* Tik.xcdatamodeld in Sources */,
 				9BCBE8021A6A29C500C9FF87 /* AppDelegate.m in Sources */,
-				9BCBE8081A6A29C500C9FF87 /* ViewController.m in Sources */,
+				9BCBE82D1A6A444C00C9FF87 /* TimerViewController.m in Sources */,
+				9BCBE8281A6A443800C9FF87 /* TimeSelectorViewController.m in Sources */,
 				9BCBE7FF1A6A29C500C9FF87 /* main.m in Sources */,
+				9BCBE8371A6AB9D700C9FF87 /* IssuesCenter.m in Sources */,
+				9BCBE8331A6AB0BA00C9FF87 /* IssuesCenterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,14 +290,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9BCBE8091A6A29C500C9FF87 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9BCBE80A1A6A29C500C9FF87 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9BCBE80E1A6A29C500C9FF87 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -350,6 +384,7 @@
 				INFOPLIST_FILE = Tik/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -360,6 +395,7 @@
 				INFOPLIST_FILE = Tik/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -416,6 +452,7 @@
 				9BCBE8211A6A29C500C9FF87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BCBE8221A6A29C500C9FF87 /* Build configuration list for PBXNativeTarget "TikTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +461,7 @@
 				9BCBE8241A6A29C500C9FF87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

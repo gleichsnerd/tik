@@ -7,17 +7,74 @@
 //
 
 #import "AppDelegate.h"
+#import "TimerViewController.h"
+#import "IssuesCenter.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
+@synthesize window = _window;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSManagedObjectContext *context = [self managedObjectContext];
+    IssuesCenter *issuesData = [NSEntityDescription
+                                       insertNewObjectForEntityForName:@"IssuesCenter"
+                                       inManagedObjectContext:context];
+
+//    [self insertNewRecordIntoCenter:@"TOO" withResolution:nil];
+//    [self insertNewRecordIntoCenter:@"MANY" withResolution:nil];
+//    [self insertNewRecordIntoCenter:@"DICKS" withResolution:nil];
+//    [self insertNewRecordIntoCenter:@"ON THE" withResolution:nil];
+//    [self insertNewRecordIntoCenter:@"DANCE" withResolution:nil];
+//    [self insertNewRecordIntoCenter:@"FLOOR" withResolution:nil];
+    
+    
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entity = [NSEntityDescription
+                                   entityForName:@"IssuesCenter" inManagedObjectContext:context];
+    [fetchRequest setEntity:entity];
+    NSError *error;
+    NSArray *fetchedObjects = [context executeFetchRequest:fetchRequest error:&error];
+    for (NSManagedObject *info in fetchedObjects) {
+        NSLog(@"Issue: %@\nResolution: %@", [info valueForKey:@"issue"], [info valueForKey:@"resolution"]);
+//        [context deleteObject:info];
+    }
+    
+    [context save:nil];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    TimerViewController *timerController = [[TimerViewController alloc] init];
+    timerController.context = context;
+    timerController.issuesData = issuesData;
+    _navigationController = [[UINavigationController alloc] initWithRootViewController:timerController];
+    
+    [self.window addSubview:_navigationController.view];
+    
+    [self.window makeKeyAndVisible];
+    
+    
+    
     return YES;
+}
+
+- (void)insertNewRecordIntoCenter:(NSString *)issue withResolution:(NSString *)resolution {
+    NSManagedObjectContext *context = [self managedObjectContext];
+    IssuesCenter *issuesData = [NSEntityDescription
+                                insertNewObjectForEntityForName:@"IssuesCenter"
+                                inManagedObjectContext:context];
+    
+    issuesData.issue = issue;
+    issuesData.resolution = resolution;
+    NSError *error;
+    if (![context save:&error]) {
+        NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
